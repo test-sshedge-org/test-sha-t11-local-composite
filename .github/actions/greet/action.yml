@@ -1,0 +1,8 @@
+name: Greet
+description: Simple composite action for T11 test
+runs:
+  using: composite
+  steps:
+    - name: Say hello
+      shell: bash
+      run: echo "Hello from local composite action"
